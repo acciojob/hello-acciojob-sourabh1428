@@ -1,10 +1,13 @@
+/* Styles for the <main> element */
+main.accio#job {
+  width: 150px;
+  height: 150px;
+  background-color: black;
+}
 
-/* Your CSS Code here. */
-.main{
-	height:150px;
-	width:150px;
-	background-color:black;
-	font-color:white;
-	margin-left:32px;
-	padding:10px;
+/* Styles for the <p> element inside <main> */
+main.accio#job .hello-accio {
+  color: white;
+  margin-left: 32px;
+  padding: 10px;
 }
